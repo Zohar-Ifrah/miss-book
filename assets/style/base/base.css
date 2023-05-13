@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+/* html {
+} */
+
+body {
+  margin: 0;
+  background-color: #bd5b3cab;
+}
+
+table {
+  background-color: #d66f38;
+  margin-top: 8px;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.list-img{
+  position: relative;
+  max-width: 4em;
+}
+
+td,
+th,
+.list {
+  border: 2px solid #1a1313;
+  padding: 10px;
+}
+
+/*  Dont stretch my Media  */
+img,
+embed,
+video,
+object {
+  max-width: 100%
+}
+
+a.active {
+  color: rgb(241, 212, 241);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.app-nav{
+  display: flex;
+  gap: 1em;
+  text-decoration: none;
+  color: unset;
+}
+
+.add-btn{
+  margin-bottom: 1em;
+}
+
+/*  Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}
+
+/* .user-msg{
+  background-color: aqua;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: .5em 0 .5em;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+p {
+  margin: 0 0 1em;
+}*/
+
+
+
